@@ -1,0 +1,89 @@
+/* Set maroon background color */
+/* Ensure the body has a centered layout */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #800000; /* Maroon background */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensures full height */
+}
+
+/* Flexbox to align items properly */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows it to adjust on smaller screens */
+    gap: 20px;
+}
+
+/* Adjust school logo positioning */
+/* Style the school logo and position it in the top-left */
+.background-img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 250px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Invitation Card */
+/* Center the invitation box */
+.invitation {
+    background: none; /* No background */
+    padding: 20px;
+    border-radius: 0px; /* Removes rounded corners */
+    box-shadow: none; /* Removes any shadow */
+    max-width: 500px;
+    text-align: center;
+    margin-top: 20px; /* Creates space from the top */
+}
+
+/* Title */
+h1 {
+    color: #c66f0bfe;
+    font-size: 28px;
+}
+
+/* Details */
+.details {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+/* RSVP Text */
+.rsvp {
+    font-size: 16px;
+    color: #16a085;
+    font-weight: bold;
+}
+
+/* RSVP Button */
+.rsvp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #16a085;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.rsvp-button:hover {
+    background-color: #138a72;
+}
+
+/* Graduate Photo Styling */
+.graduate-photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
