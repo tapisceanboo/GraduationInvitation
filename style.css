@@ -48,16 +48,20 @@ body {
 /* Title */
 h1 {
     text-align: center;
-    font-size: 36px; /* Keeps it readable */
+    font-size: 40px; /* Adjusted for better spacing */
     font-weight: bold;
-    color: #f4a825; /* Gold color */
-    margin: 0 auto; /* Centers it */
-    padding: 10px 0; /* Adds vertical spacing */
-    line-height: 1.4; /* Adjust line spacing */
-    display: inline-flex; /* Aligns text and emojis on the same line */
-    align-items: center; /* Keeps text and emojis properly aligned */
-    gap: 10px; /* Adds space between emojis and text */
+    color: #f4a825;
+    margin: 0 auto;
+    padding: 5px 0;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap; /* Prevents line breaks */
+    white-space: nowrap; /* Ensures the title stays on one line */
+    gap: 10px; /* Adds spacing between emojis and text */
 }
+
 
 
 
