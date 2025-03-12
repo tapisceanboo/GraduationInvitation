@@ -12,6 +12,17 @@ body {
     padding: 50px 20px; /* Ensures proper spacing */
     min-height: 100vh;
 }
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #800000 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Moves content higher */
+    min-height: 95vh; /* Slightly reduces height to move content up */
+    padding-top: 20px; /* Moves content closer to the top */
+}
 
 
 /* Flexbox to align items properly */
