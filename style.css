@@ -122,7 +122,14 @@ h1 {
     display: block;
     margin: 0 auto 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    
+
+/* Reduce Size on Mobile */
+@media (max-width: 600px) {
+    .graduate-photo {
+        width: 200px; /* Shrink to 200px */
+        height: 200px;
+    }
+}
 .emoji {
     font-size: 32px; /* Slightly smaller */
     vertical-align: middle;
