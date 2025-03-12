@@ -2,13 +2,15 @@
 /* Ensure the body has a centered layout */
 
 body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #800000; /* Maroon background restored */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    padding: 50px 20px;
-    text-align: center; /* Ensures everything is aligned */
+    padding: 50px 20px; /* Ensures proper spacing */
 }
 
 /* Flexbox to align items properly */
