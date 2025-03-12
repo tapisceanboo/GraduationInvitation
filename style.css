@@ -41,17 +41,23 @@ body {
 
 
 /* Invitation Card */
-/* Center the invitation box */
+/* Move the entire invitation box further down */
 .invitation {
-    background: none; /* No background */
+    background: none;
     padding: 20px;
-    border-radius: 0px; /* Removes rounded corners */
-    box-shadow: none; /* Removes any shadow */
+    border-radius: 0px;
+    box-shadow: none;
     max-width: 500px;
     text-align: center;
-    margin-top: 5px; /* Moves content higher */
+    margin-top: 100px; /* Adjust this value to move everything down */
 }
 
+/* On smaller screens, adjust the spacing */
+@media (max-width: 600px) {
+    .invitation {
+        margin-top: 120px; /* Move even lower for better balance */
+    }
+}
 
 
 /* Title */
