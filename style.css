@@ -46,13 +46,17 @@ body {
 /* Title */
 h1 {
     text-align: center;
-    font-size: 32px; /* Adjust if needed */
+    font-size: 36px; /* Slightly bigger for better visibility */
     font-weight: bold;
     color: #f4a825; /* Adjust color if needed */
-    margin-top: 20px; /* Adds spacing from the top */
-    padding: 10px; /* Prevents overlapping */
-    line-height: 1.2; /* Adjust line spacing */
+    margin: 0 auto; /* Ensures no extra margin */
+    padding: 20px 0; /* Adds vertical spacing */
+    line-height: 1.4; /* Adjust line spacing */
+    display: flex; /* Makes the emojis align properly */
+    flex-direction: column; /* Stacks text and emojis */
+    align-items: center; /* Centers content horizontally */
 }
+
 
 
 /* Details */
