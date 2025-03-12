@@ -7,7 +7,8 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    padding: 50px 20px; /* More padding for better spacing */
+    padding: 50px 20px;
+    text-align: center; /* Ensures everything is aligned */
 }
 
 /* Flexbox to align items properly */
@@ -44,15 +45,15 @@ body {
 /* Title */
 h1 {
     text-align: center;
-    font-size: 36px; /* Slightly bigger for better visibility */
+    font-size: 36px; /* Keeps it readable */
     font-weight: bold;
-    color: #f4a825; /* Adjust color if needed */
-    margin: 0 auto; /* Ensures no extra margin */
-    padding: 20px; /* Adds vertical spacing */
+    color: #f4a825; /* Gold color */
+    margin: 0 auto; /* Centers it */
+    padding: 10px 0; /* Adds vertical spacing */
     line-height: 1.4; /* Adjust line spacing */
-    display: flex; /* Makes the emojis align properly */
-    flex-direction: column; /* Stacks text and emojis */
-    align-items: center; /* Centers content horizontally */
+    display: inline-flex; /* Aligns text and emojis on the same line */
+    align-items: center; /* Keeps text and emojis properly aligned */
+    gap: 10px; /* Adds space between emojis and text */
 }
 
 
@@ -99,9 +100,9 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     
 .emoji {
-    font-size: 36px; /* Adjust emoji size */
-    display: inline-block; /* Ensures proper alignment */
-    margin: 0 5px; /* Adds spacing between emojis */
-    vertical-align: middle; /* Centers it with text */
+    font-size: 32px; /* Slightly smaller */
+    vertical-align: middle;
+    position: relative;
+    top: 2px; /* Moves emoji slightly down if needed */
 }
 
