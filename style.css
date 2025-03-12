@@ -1,15 +1,13 @@
 /* Set maroon background color */
 /* Ensure the body has a centered layout */
+
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #800000; /* Maroon background */
-    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh; /* Ensures full height */
+    min-height: 100vh;
+    padding: 50px 20px; /* More padding for better spacing */
 }
 
 /* Flexbox to align items properly */
