@@ -96,3 +96,7 @@ h1 {
     margin: 0 auto 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+.emoji {
+    font-size: 28px; /* Adjust emoji size */
+    vertical-align: middle; /* Keeps emojis inline */
+}
