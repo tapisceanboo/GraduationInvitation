@@ -1,6 +1,5 @@
 /* Set maroon background color */
 /* Ensure the body has a centered layout */
-
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -8,19 +7,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Moves content closer to the top */
+    justify-content: flex-start; /* Moves content up */
     min-height: 100vh;
-    padding-top: 10px;
-    overflow-x: hidden; /* Prevents side-scrolling */
+    padding-top: 5px;
+    overflow-x: hidden;
 }
 
-/* Ensure better spacing on mobile */
+/* Reduce top space for small screens */
 @media (max-width: 600px) {
     body {
-        padding-top: 5px;
+        padding-top: 0;
     }
 }
-
 
 /* Adjust school logo positioning */
 /* Style the school logo and position it in the top-left */
@@ -33,14 +31,15 @@ body {
     max-width: 20vw; /* Make the logo scale with screen size */
 }
 
-/* Fix for small screens */
+/* Reduce size on mobile */
 @media (max-width: 600px) {
     .background-img {
-        width: 120px; /* Shrink the logo */
+        width: 100px; /* Shrink the logo */
         top: 5px;
         left: 5px;
     }
 }
+
 
 /* Invitation Card */
 /* Center the invitation box */
@@ -66,21 +65,19 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: nowrap;
-    white-space: nowrap;
+    white-space: nowrap; /* Keeps it in one line */
     max-width: 90vw; /* Prevents text from going off-screen */
 }
 
-/* Adjust for mobile */
+/* Mobile Fix */
 @media (max-width: 600px) {
     h1 {
-        font-size: 28px; /* Smaller font on mobile */
-        flex-wrap: wrap; /* Allows wrapping */
-        white-space: normal; /* Allows text to break naturally */
+        font-size: 26px; /* Adjust size */
+        flex-wrap: nowrap; /* Prevent wrapping */
+        white-space: nowrap; /* Force one line */
         text-align: center;
     }
 }
-
 
 
 /* Details */
