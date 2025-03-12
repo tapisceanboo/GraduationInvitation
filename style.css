@@ -62,21 +62,24 @@ h1 {
     font-weight: bold;
 }
 
-/* RSVP Button */
 .rsvp-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 12px 24px;
     background-color: #16a085;
     color: white;
     text-decoration: none;
     font-size: 18px;
+    font-weight: bold;
     border-radius: 5px;
-    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
 }
 
 .rsvp-button:hover {
     background-color: #138a72;
 }
+
 
 /* Graduate Photo Styling */
 .graduate-photo {
