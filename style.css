@@ -48,7 +48,7 @@ h1 {
     font-weight: bold;
     color: #f4a825; /* Adjust color if needed */
     margin: 0 auto; /* Ensures no extra margin */
-    padding: 20px 0; /* Adds vertical spacing */
+    padding: 20px; /* Adds vertical spacing */
     line-height: 1.4; /* Adjust line spacing */
     display: flex; /* Makes the emojis align properly */
     flex-direction: column; /* Stacks text and emojis */
