@@ -45,9 +45,15 @@ body {
 
 /* Title */
 h1 {
-    color: #c66f0bfe;
-    font-size: 28px;
+    text-align: center;
+    font-size: 32px; /* Adjust if needed */
+    font-weight: bold;
+    color: #f4a825; /* Adjust color if needed */
+    margin-top: 20px; /* Adds spacing from the top */
+    padding: 10px; /* Prevents overlapping */
+    line-height: 1.2; /* Adjust line spacing */
 }
+
 
 /* Details */
 .details {
