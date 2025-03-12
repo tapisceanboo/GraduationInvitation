@@ -4,44 +4,42 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #800000 !important; /* Force maroon background */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 20px; /* Ensures proper spacing */
-    min-height: 100vh;
-}
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
     background-color: #800000 !important;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Moves content higher */
-    min-height: 95vh; /* Slightly reduces height to move content up */
-    padding-top: 20px; /* Moves content closer to the top */
+    justify-content: flex-start; /* Moves content closer to the top */
+    min-height: 100vh;
+    padding-top: 10px;
+    overflow-x: hidden; /* Prevents side-scrolling */
 }
 
-
-/* Flexbox to align items properly */
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap; /* Allows it to adjust on smaller screens */
-    gap: 20px;
+/* Ensure better spacing on mobile */
+@media (max-width: 600px) {
+    body {
+        padding-top: 5px;
+    }
 }
+
 
 /* Adjust school logo positioning */
 /* Style the school logo and position it in the top-left */
 .background-img {
     position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 250px; /* Adjust size as needed */
+    top: 10px;
+    left: 10px;
+    width: 180px; /* Adjust for smaller screens */
     height: auto;
+    max-width: 20vw; /* Make the logo scale with screen size */
+}
+
+/* Fix for small screens */
+@media (max-width: 600px) {
+    .background-img {
+        width: 120px; /* Shrink the logo */
+        top: 5px;
+        left: 5px;
+    }
 }
 
 /* Invitation Card */
@@ -59,7 +57,7 @@ body {
 /* Title */
 h1 {
     text-align: center;
-    font-size: 40px; /* Adjusted for better spacing */
+    font-size: 36px; /* Default for desktop */
     font-weight: bold;
     color: #f4a825;
     margin: 0 auto;
@@ -68,11 +66,20 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: nowrap; /* Prevents line breaks */
-    white-space: nowrap; /* Ensures the title stays on one line */
-    gap: 10px; /* Adds spacing between emojis and text */
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    max-width: 90vw; /* Prevents text from going off-screen */
 }
 
+/* Adjust for mobile */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 28px; /* Smaller font on mobile */
+        flex-wrap: wrap; /* Allows wrapping */
+        white-space: normal; /* Allows text to break naturally */
+        text-align: center;
+    }
+}
 
 
 
