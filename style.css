@@ -116,8 +116,8 @@ h1 {
 
 /* Graduate Photo Styling */
 .graduate-photo {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     display: block;
     margin: 0 auto 20px;
